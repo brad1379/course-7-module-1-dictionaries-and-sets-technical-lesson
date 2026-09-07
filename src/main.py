@@ -13,7 +13,14 @@ print("\nAll Customers:")
 customer_manager.display_customers()
 
 # Filtering is not yet implemented (students will add it)
-print("\nFiltered Customers: (Not Implemented Yet)")
+print("\nFiltered Customers:")
+customer_manager.filter_customers_by_city("New York")
 
 # Unique locations are not yet implemented (students will add them)
-print("\nUnique Locations: (Not Implemented Yet)")
+print("\nUnique Locations:")
+customer_manager.get_unique_locations()
+
+print("\nUpdate Customer Location:")
+customer_manager.update_customer_location("cust_102", "San Francisco")
+
+customer_manager.get_unique_locations()
